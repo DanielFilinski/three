@@ -1,0 +1,54 @@
+.custom-button {
+  /* Определите стили по своему усмотрению */
+  display: inline-block;
+  padding: 2px;
+  border: none;
+  background-color: lightgray;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.main{
+  flex: 1;
+}
+
+.main_loader-container{
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  margin: 10px;
+}
+
+.main_button-container{
+  display: flex;
+  margin: 5px;
+  gap: 5px;
+}
+.main_btn{
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+
+
+.item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*.modal-container{*/
+/*  width: 200px;*/
+/*  height: 200px;*/
+/*  background-color: blue;*/
+/*}*/
+
+
+.item-expandedIcon-container{
+  margin-right: 5px;
+}
+
+
